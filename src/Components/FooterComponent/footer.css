@@ -1,0 +1,29 @@
+.footer{
+    height: 4.5rem;
+    background: #192b47;
+    color: whitesmoke;
+    padding-top: 1.4rem;
+    /* align-items: center; */
+}
+
+@media (max-width:468px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .leftFooter{
+        margin-left: 1rem;
+        position: relative;
+        top: -0.5rem;
+    }
+
+    .rightFooter{
+        margin-right: 2.2rem;
+        position: relative;
+        top: -0.5rem;
+        /* padding-bottom: 1rem; */
+        /* padding-bottom: 1rem; */
+    }
+
+}

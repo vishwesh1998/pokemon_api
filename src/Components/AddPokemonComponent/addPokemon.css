@@ -1,0 +1,43 @@
+.addPokemon{
+    height: auto;
+    background: #dae9ec;
+    color: black;
+    padding-bottom: 5rem;
+}
+
+.addPokemon h1{
+    font-weight: 900;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color: darkslategray;
+}
+
+.innerAddPokemon{
+    /* border: 1px solid black; */
+    background: darkslategray;
+    color: white;
+    box-shadow: 15px 15px 15px 15px white;
+    padding: 2rem;
+    border-radius: 8px;
+    /* margin-bottom: 5rem; */
+    margin-top: 2rem;
+    /* padding-bottom: 5rem; */
+}
+
+.innerAddPokemon button{
+    cursor:pointer;
+}
+
+@media (max-width:468px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .addPokemon h1{
+        font-size: 22px;
+    }
+
+    .nameInput{
+        margin-bottom: 2rem;
+    }
+}

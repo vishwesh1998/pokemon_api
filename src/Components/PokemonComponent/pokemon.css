@@ -1,0 +1,82 @@
+.pokemon{
+    height: auto;
+    background: #dae9ec;
+    color: black;
+}
+
+.pokemon h1{
+    font-weight: 900;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color: darkslategray;
+}
+
+.pokemon > div{
+    margin-left: 1rem;
+}
+
+.innerBox{
+    height: auto;
+    margin: 3rem;
+    padding-bottom: 3rem;
+    /* margin-right: 1rem; */
+    /* padding-top: -5rem; */
+    /* margin-bottom: 2rem; */
+    box-shadow: 15px 15px 15px 15px white;
+    border-radius: 8px;
+    /* background: whitesmoke; */
+    background: darkslategray;
+    /* background: #192b47; */
+    color: white;
+    /* margin-left: 3rem; */
+    /* border: 1px solid black; */
+}
+
+ul {
+    list-style-type: none;
+    /* align-items: center; */
+    /* align-self: center; */
+}
+
+.innerBox img{
+    width: 12rem;
+    /* align-items: center; */
+    /* text-align: center; */
+}
+
+.innerBoxType{
+    /* border: 1px solid white; */
+    background: white;
+    color: black;
+    margin: 1rem;
+    border-radius: 5px;
+    padding: 0.2rem;
+    /* margin-top: 20px; */
+}
+
+.innerBox button{
+    cursor: pointer;
+}
+
+.innerBoxType1{
+    /* border: 1px solid white; */
+    background: white;
+    color: black;
+    margin: 0.2rem;
+    /* margin: auto; */
+    border-radius: 5px;
+    padding: 0.2rem;
+    /* margin-top: 20px; */
+}
+
+@media (max-width:468px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+    .pokemon h1{
+        font-size: 22px;
+        /* padding-top: 3rem; */
+    }
+
+}
