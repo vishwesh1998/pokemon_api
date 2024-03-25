@@ -1,6 +1,6 @@
 import './footer.css'
 
-export default function Footer(){
+export default function Footer() {
     return <div className="container-fluid footer">
         <div className="row">
             <div className="col-lg-6 leftFooter">

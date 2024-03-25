@@ -1,29 +1,32 @@
-.footer{
+.footer {
     height: 4.5rem;
     background: #192b47;
     color: whitesmoke;
     padding-top: 1.4rem;
-    /* align-items: center; */
 }
 
-@media (max-width:468px){
-    *{
+@media (max-width:468px) {
+    * {
         margin: 0;
         padding: 0;
     }
 
-    .leftFooter{
+    .leftFooter {
         margin-left: 1rem;
         position: relative;
         top: -0.5rem;
     }
 
-    .rightFooter{
+    .rightFooter {
         margin-right: 2.2rem;
         position: relative;
         top: -0.5rem;
-        /* padding-bottom: 1rem; */
-        /* padding-bottom: 1rem; */
     }
 
+}
+
+@media (min-width:469px) and (max-width:768px) {
+    .rightFooter {
+        top: -1.4rem;
+    }
 }

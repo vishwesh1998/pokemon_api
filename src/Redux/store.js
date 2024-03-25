@@ -1,9 +1,9 @@
-import {configureStore} from '@reduxjs/toolkit'
+import { configureStore } from '@reduxjs/toolkit'
 import slice from './slice'
 
 const store = configureStore({
-    reducer : {
-        pokemonData : slice
+    reducer: {
+        pokemonData: slice
     }
 })
 
